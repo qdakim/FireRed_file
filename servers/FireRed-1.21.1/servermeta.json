@@ -2,7 +2,7 @@
   "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/FireRed_file/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "FireRed",
+    "name": "FireRed 2.0",
     "description": "Minecraft 1.21.1 (Fabric v0.16.13)",
     "icon": "https://github.com/qdakim/FireRed_file/raw/main/server-icon.png",
     "address": "www.zzoldong.p-e.kr",
