@@ -496,16 +496,6 @@
           }
         },
         {
-          "id": "de.keksuccino:fancymenu:3.4.6@jar",
-          "name": "FancyMenu",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 3220667,
-            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/fancymenu_fabric_3.4.6_MC_1.21.1.jar",
-            "MD5": "26e17a3343bb9e4f4406d092fca79cd4"
-          }
-        },
-        {
           "id": "vectorwing.farmersdelight:farmersdelight:1.21.1-2.3.0+refabricated@jar",
           "name": "Farmer's Delight",
           "type": "FabricMod",
