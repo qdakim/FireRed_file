@@ -1,0 +1,11 @@
+version:3955
+autoJump:false
+realmsNotifications:false
+resourcePacks:["vanilla","fabric","cobblemon:gyaradosjump","knowlogy:9999_minecraft","cobblemon_knowlogy:cobblemonrider","cobbreeding:pasturefix","knowlogy:7899_tricky_trials","cobblemon_knowlogy:cobblemonpokenav","cobblemon:regionbiasforms","cobblemon_knowlogy:cobblemon","cobblemon:uniqueshinyforms","cobblemon_knowlogy:pokepedia","continuity:default","continuity:glass_pane_culling_fix","file/1.21.2-Fresh-Moves_v3.1_No_Animated_Eyes.zip","file/AlphabetSoup-v2.2.zip","file/CobbleFolk-Skin-Pack_for_1.6.zip","file/Cobblemon-3D-Poké-Rods_1.0.zip","file/Cobblemon-Classic-Grass-Pack_2.1_1.21.1.zip","file/Cobblemon-Interface-Modded_1.7.0.zip","file/Cobblemon-Interface_1.4.0.zip","file/Cobblemotion_v1.2.zip","file/E19-Cobblemon-Minimap-Icons.zip","file/FreshAnimations_v1.9.2.zip","file/RCT-Trainers_1.6_1.5.zip","file/Rotom-Appliances_Cobblemon_1.5.zip","file/emissive-cobblemon-ores.zip","knowlogy:7897_bundles_of_bravery","knowlogy:tutorial","mega_showdown:gyaradosjumpingmega"]
+incompatibleResourcePacks:["appleskin","balm-fabric","carryon","cobblemon_knowlogy","cobblemon_spawn_notification","controlling","distraction_free_recipes","fancymenu","framework","globalpacks","jade","jei","knowlogy","konkrete","koreanpatch","modernfix","patchouli","replaymod","searchables","sophisticatedbackpacks","sophisticatedcore","terrablender","toms_storage","txnilib","waystones","xaerominimap","xaeroworldmap","yet_another_config_lib_v3","file/AlphabetSoup-v2.2.zip","file/Rotom-Appliances_Cobblemon_1.5.zip","knowlogy:7897_bundles_of_bravery"]
+lang:ko_kr
+narrator:0
+tutorialStep:none
+skipMultiplayerWarning:true
+onboardAccessibility:false
+key_key.chat:key.keyboard.enter
