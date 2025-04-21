@@ -1,0 +1,1285 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "FireRed-1.21.1",
+      "name": "FireRed",
+      "description": "Minecraft 1.21.1 (Fabric v0.16.13)",
+      "icon": "https://github.com/qdakim/FireRed_file/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "www.zzoldong.p-e.kr",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.13",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387633,
+            "MD5": "5cffbeb4848a035ce735295b1cc0e7fa",
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/repo/lib/net/fabricmc/fabric-loader/0.16.13/fabric-loader-0.16.13.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.16.13",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2859,
+                "MD5": "e0c2f70e5df3dc2bd26a812adb2b8b79",
+                "url": "https://github.com/qdakim/FireRed_file/raw/main/repo/versions/1.21.1-fabric-0.16.13/1.21.1-fabric-0.16.13.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://github.com/qdakim/FireRed_file/raw/main/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://github.com/qdakim/FireRed_file/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://github.com/qdakim/FireRed_file/raw/main/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://github.com/qdakim/FireRed_file/raw/main/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://github.com/qdakim/FireRed_file/raw/main/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://github.com/qdakim/FireRed_file/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://github.com/qdakim/FireRed_file/raw/main/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "squeek.appleskin:appleskin:3.0.6+mc1.21@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1082585,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/appleskin-fabric-mc1.21-3.0.6.jar",
+            "MD5": "a24c435e84973afd607e20395ecba19d"
+          }
+        },
+        {
+          "id": "dev.architectury.utils:architectury:13.0.8@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 600915,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/architectury-13.0.8-fabric.jar",
+            "MD5": "702e92d09a4855c6c8aa9e738a48efa4"
+          }
+        },
+        {
+          "id": "earth.terrarium.athena.impl:athena:4.0.1@jar",
+          "name": "Athena",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 83716,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/athena-fabric-1.21-4.0.1.jar",
+            "MD5": "d16923b216f9ce05f8902ce44ebad7ee"
+          }
+        },
+        {
+          "id": "mod.linguardium:badgebox:1.0.0@jar",
+          "name": "Badge Box",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 64191,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/badgebox-fabric-1.2.5.jar",
+            "MD5": "b781c9483e53268b1e844ab20ee6ea40"
+          }
+        },
+        {
+          "id": "net.blay09.mods.balm:balm-fabric:21.0.31@jar",
+          "name": "Balm",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 480194,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/balm-fabric-1.21.1-21.0.31.jar",
+            "MD5": "d917c34ca30ff4804a746368540e1a90"
+          }
+        },
+        {
+          "id": "tschipp.carryon:carryon:2.2.2@jar",
+          "name": "Carry On",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 351867,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/carryon-fabric-1.21.1-2.2.2.11.jar",
+            "MD5": "82725c2177c09696da4c8375cd5e69db"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:15.0.140@jar",
+          "name": "Cloth Config v15",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1157166,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/cloth-config-15.0.140-fabric.jar",
+            "MD5": "a2c091b027ad6ba8e54b07020fd45884"
+          }
+        },
+        {
+          "id": "fr.harmex:cobbledollars:2.0.0+Beta-3+1.21.1@jar",
+          "name": "CobbleDollars",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 323548,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/CobbleDollars-fabric-2.0.0+Beta-3+1.21.1.jar",
+            "MD5": "3c31b4ea5e7c9f5b918a1d674296be3c"
+          }
+        },
+        {
+          "id": "com.lunazstudios:cobblefurnies:0.4.3@jar",
+          "name": "CobbleFurnies",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1490731,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/CobbleFurnies-fabric-0.4.3.jar",
+            "MD5": "82e8fff67ecc5df2c764367c31278c18"
+          }
+        },
+        {
+          "id": "knowlogy.cobblemon:cobblemon_knowlogy:1.3.0@jar",
+          "name": "Cobblemon Knowlogy",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6038188,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/cobblemon_knowlogy-fabric-1.3.0-1.21.1.jar",
+            "MD5": "9974a5751bd2be8106cb29d2b80ce825"
+          }
+        },
+        {
+          "id": "com.cobblemon.yajatkaul:mega_showdown:7.0.0-release-fabric@jar",
+          "name": "Cobblemon: Mega Showdown",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 10562638,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/Cobblemon_MegaShowdown-7.0.0-release-fabric.jar",
+            "MD5": "da89cf75d0efa61e3157b58f7ac0d2ca"
+          }
+        },
+        {
+          "id": "kiwiapollo.cobblemonarmors:cobblemonarmors:1.4.0+1.6.1@jar",
+          "name": "Cobblemon Armors",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 13539675,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/cobblemon-armors-1.4.0+1.6.1.jar",
+            "MD5": "06366b07f09f0b921678a2989fc51878"
+          }
+        },
+        {
+          "id": "us.timinc.mc.cobblemon.droploottables:cobblemon_droploottables:1.6-fabric-1.3.0@jar",
+          "name": "Cobblemon Drop Loot Tables",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 246380,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/cobblemon-droploottables-1.6-fabric-1.3.0.jar",
+            "MD5": "328d4ebe8b5348a23ca56f8b09f7a785"
+          }
+        },
+        {
+          "id": "com.cobblemon.mod:cobblemon:1.6.1+1.21.1@jar",
+          "name": "Cobblemon",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 120710175,
+            "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/v77SHSXW/Cobblemon-fabric-1.6.1%2B1.21.1.jar",
+            "MD5": "cefe6ab687c39e1a7fe9b2bf96b09188"
+          }
+        },
+        {
+          "id": "us.timinc.mc.cobblemon.fixedstarterivs:cobblemon_fixedstarterivs:1.6-fabric-1.0.0@jar",
+          "name": "Cobblemon Fixed Starter IVs",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8861,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/cobblemon-fixedstarterivs-1.6-fabric-1.0.0.jar",
+            "MD5": "8fea50b223465289bbf9869f011b80f3"
+          }
+        },
+        {
+          "id": "us.timinc.mc.cobblemon.shearems:cobblemon-shearems:1.6-fabric-1.1.1@jar",
+          "name": "Cobblemon Shearems",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 10565,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/cobblemon-shearems-1.6-fabric-1.1.1.jar",
+            "MD5": "90996798dde03cf4ed56175e1be96cf7"
+          }
+        },
+        {
+          "id": "us.timinc.mc.cobblemon.spawnnotification:cobblemon_spawn_notification:1.6-fabric-1.2.1@jar",
+          "name": "Cobblemon Spawn Notification",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 80046,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/cobblemon-spawn-notification-1.6-fabric-1.2.1.jar",
+            "MD5": "ed7476ede64fc92df3b3b7f11d580fcb"
+          }
+        },
+        {
+          "id": "ca.landonjw:cobblemon-ui-tweaks:1.0.7@jar",
+          "name": "Cobblemon UI Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 64439,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/cobblemon-ui-tweaks-1.0.7.jar",
+            "MD5": "ca8cb2cd9524a22b0c3a643de544e602"
+          }
+        },
+        {
+          "id": "com.luismaia:cobblemon-wiki-gui:1.1.0-1.21.1@jar",
+          "name": "Cobblemon Wiki Gui",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 202978,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/Cobblemon-Wiki-Gui-1.1.0-1.21.1.jar",
+            "MD5": "a562c7956b70df21528c261ad7b53df6"
+          }
+        },
+        {
+          "id": "com.arcaryx:cobblemonintegrations:1.1.2@jar",
+          "name": "CobblemonIntegrations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 344435,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/cobblemonintegrations-fabric-1.21.1-1.1.2.jar",
+            "MD5": "0db0393b63af9b66d331211ccc2ee568"
+          }
+        },
+        {
+          "id": "me.jamessssss:cobblemonpokemonbadges:0.1.1@jar",
+          "name": "Cobblemon Pokemon Badges",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 129759,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/cobblemonpokemonbadges-fabric-0.1.1.jar",
+            "MD5": "477d57c21841b70f0ed7954530d8be0e"
+          }
+        },
+        {
+          "id": "deuli.cobblemonrepel:cobblemonrepel:1.6-1.1@jar",
+          "name": "Cobblemon Repel",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 704944,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/CobblemonRepel-1.6-1.1.jar",
+            "MD5": "e2039d6067ce9da1ab19470f4c83f627"
+          }
+        },
+        {
+          "id": "dev.zanckor:cobblemonridingfabric:1.3.7@jar",
+          "name": "Cobblemon Riding Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 57492,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/cobblemonridingfabric-1.3.7.jar",
+            "MD5": "2066b75758a1d680fee6ea2009989983"
+          }
+        },
+        {
+          "id": "com.metacontent:cobblenav:2.1.0@jar",
+          "name": "Cobblenav",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 552861,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/cobblenav-fabric-2.1.0.jar",
+            "MD5": "1d97b3abf0020c3eabdf7fd6ecec0ce6"
+          }
+        },
+        {
+          "id": "ludichat.cobbreeding:cobbreeding:1.8.9@jar",
+          "name": "Cobbreeding",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 264035,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/Cobbreeding-fabric-1.8.9.jar",
+            "MD5": "5e627be0c220f13d5953fa53d7525795"
+          }
+        },
+        {
+          "id": "it.crystalnest:cobweb:1.3.3@jar",
+          "name": "Cobweb",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 416822,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/cobweb-fabric-1.21-1.3.3.jar",
+            "MD5": "b327b4924be9e9effa45f75f4127e8bf"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0+1.21@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1014044,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/continuity-3.0.0+1.21.jar",
+            "MD5": "daee3841730e2576a621943f289deadb"
+          }
+        },
+        {
+          "id": "generated.fabricmod:controlling:19.0.4@jar",
+          "name": "Controlling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 83677,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/Controlling-fabric-1.21.1-19.0.4.jar",
+            "MD5": "f85f34e628603d3eac84ad6165bb8d6a"
+          }
+        },
+        {
+          "id": "corgitaco.corgilib:corgilib:5.0.0.3@jar",
+          "name": "CorgiLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 719911,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/Corgilib-Fabric-1.21.1-5.0.0.3.jar",
+            "MD5": "9bcfc5f83ba85460f291b10e1740ba0d"
+          }
+        },
+        {
+          "id": "com.intijir.daycount:daycountmod:1.3.1-mc1.21@jar",
+          "name": "Day Count",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1028818,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/DayCount-1.3.1-mc1.21.jar",
+            "MD5": "f101608e4eb0686e683cec8e4b9b4419"
+          }
+        },
+        {
+          "id": "toni.distractionfreerecipes:distraction_free_recipes:1.2.1@jar",
+          "name": "Distraction Free Recipes (EMI)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 659626,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/distraction_free_recipes-fabric-1.2.1-1.21.1.jar",
+            "MD5": "c5f888a591c50e9427e7f90a1847318a"
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl.textile.compat:dynamic_fps:3.9.0@jar",
+          "name": "Dynamic FPS",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 188128,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/dynamic-fps-3.9.0+minecraft-1.21.0-fabric.jar",
+            "MD5": "5ca5fb646fbd35464c0d25ae8240defb"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.4.1@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 444709,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/entity_model_features_fabric_1.21.1-2.4.1.jar",
+            "MD5": "0dc5775f29f779b17cbf03d42c1a670e"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.2.9@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 649930,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/entity_texture_features_fabric_1.21.1-6.2.9.jar",
+            "MD5": "4baf4440a9210304f2cd133e5673da33"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.7.3@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 71253,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/entityculling-fabric-1.7.3-mc1.21.jar",
+            "MD5": "a0c3039c39b168f8cbcd77028a81dfb2"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.115.2+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2400050,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/fabric-api-0.115.2+1.21.1.jar",
+            "MD5": "21a14c706b4ff7ab2f65d3dbd6803744"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.1+kotlin.2.1.10@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7107488,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/fabric-language-kotlin-1.13.1+kotlin.2.1.10.jar",
+            "MD5": "93f482c99cce35eeca5e1c974c936129"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:3.4.6@jar",
+          "name": "FancyMenu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3220667,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/fancymenu_fabric_3.4.6_MC_1.21.1.jar",
+            "MD5": "26e17a3343bb9e4f4406d092fca79cd4"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.21.1-2.3.0+refabricated@jar",
+          "name": "Farmer's Delight",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 10939580,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/FarmersDelight-1.21.1-2.3.0+refabricated.jar",
+            "MD5": "c3dc1d0832f8893cef7e814d68d8d81d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:7.0.2-hotfix@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 120709,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/ferritecore-7.0.2-hotfix-fabric.jar",
+            "MD5": "6d381efd51de1cbbdb8070d346f32555"
+          }
+        },
+        {
+          "id": "me.rufia:fightorflight:0.7.6@jar",
+          "name": "Cobblemon Fight or Flight Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1254353,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/fightorflight-fabric-0.7.6.jar",
+            "MD5": "ba90e23c095f3aef628db695ea434fd3"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:21.1.3@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 631046,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/ForgeConfigAPIPort-v21.1.3-1.21.1-Fabric.jar",
+            "MD5": "91ebf44e3e23f58c20db21178e5be6c8"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:framework:0.9.4@jar",
+          "name": "Framework",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1536854,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/framework-fabric-1.21.1-0.9.4.jar",
+            "MD5": "fb78c7eded8fd45e2d1cf4fec50a822a"
+          }
+        },
+        {
+          "id": "com.hisroyalty:gachamachine:1.0.0@jar",
+          "name": "GachaMachine",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 89941,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/gachamachine-1.0.0.jar",
+            "MD5": "ae45e0d486b2fe5e0eef46960042b72d"
+          }
+        },
+        {
+          "id": "software.bernie:geckolib:4.7.5.1@jar",
+          "name": "GeckoLib 4",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 623913,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/geckolib-fabric-1.21.1-4.7.5.1.jar",
+            "MD5": "f471eca698988c091f5d0245e1fc0dbc"
+          }
+        },
+        {
+          "id": "glitchcore.fabric.core:glitchcore:2.1.0.0@jar",
+          "name": "GlitchCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 329188,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/GlitchCore-fabric-1.21.1-2.1.0.0.jar",
+            "MD5": "b72c9555e3dfd5ac16e843ec7c0a5331"
+          }
+        },
+        {
+          "id": "generated.fabricmod:globalpacks:21.0.0@jar",
+          "name": "Global Data- & Resourcepacks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 231126,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/globalpacks-fabric-1.21-21.0.0.jar",
+            "MD5": "6f5842704381856e4af8bb65b6322182"
+          }
+        },
+        {
+          "id": "it.crystalnest:harvest_with_ease:9.4.0@jar",
+          "name": "Harvest with ease",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 487623,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/harvest-with-ease-fabric-1.21-9.4.0.jar",
+            "MD5": "f89193a43e5644ecc3b5164d6d7c3531"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.6.1+1.21.1@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 226114,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/ImmediatelyFast-Fabric-1.6.1+1.21.1.jar",
+            "MD5": "606ec2f546c5f7f76d57666baae727ec"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.35+mc1.21@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105000,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/indium-1.0.35+mc1.21.jar",
+            "MD5": "db92c620cb72a41403b928a0b45955d0"
+          }
+        },
+        {
+          "id": "dev.plasticstraw.inf_music:infinite-music:0.4.6@jar",
+          "name": "Infinite Music",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 45913,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/infinite-music-0.4.6.jar",
+            "MD5": "c5e39b215131bf34675e19dfc89daac0"
+          }
+        },
+        {
+          "id": "org.anti_ad.mc.ipnext:inventoryprofilesnext:2.1.4@jar",
+          "name": "Inventory Profiles Next",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1297775,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/InventoryProfilesNext-fabric-1.21-2.1.4.jar",
+            "MD5": "0f59c91107acbdb560faaca00a3c43fe"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2690177,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/iris-fabric-1.8.8+mc1.21.1.jar",
+            "MD5": "1179fe09b9ba970e84ed59259adfe65a"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:15.10.0+fabric@jar",
+          "name": "Jade",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 738810,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/Jade-1.21.1-Fabric-15.10.0.jar",
+            "MD5": "34b52d02f57bd5d4f7b9315baae27985"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:19.21.0.247@jar",
+          "name": "Just Enough Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1474082,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/jei-1.21.1-fabric-19.21.0.247.jar",
+            "MD5": "7712fb0beebc6692c4c1f35e45b8a6f3"
+          }
+        },
+        {
+          "id": "knowlogy.knowlogy:knowlogy:0.7.0@jar",
+          "name": "Knowlogy Book",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6091647,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/knowlogy-fabric-0.7.1-1.21.1.jar",
+            "MD5": "94dbf0513baa9823f63d873e15a60fdc"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.9.9@jar",
+          "name": "Konkrete",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 786695,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/konkrete_fabric_1.9.9_MC_1.21.jar",
+            "MD5": "287ee9cfc6015f706672fd8c20f5ef9c"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.7.2+mc1.21@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 486032,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/koreanpatch-fabric-1.7.2+mc1.21.jar",
+            "MD5": "95bd727fc9c76516b909364600f5d22b"
+          }
+        },
+        {
+          "id": "io.wispforest:lavender:0.1.15+1.21@jar",
+          "name": "Lavender",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 539500,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/lavender-0.1.15+1.21.jar",
+            "MD5": "e90a129943f748e3bb964b97f2990f04"
+          }
+        },
+        {
+          "id": "org.anti_ad.mc:libipn:6.3.1@jar",
+          "name": "LibIPN",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 628218,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/libIPN-fabric-1.21-6.3.1.jar",
+            "MD5": "d51cc6216b5054f3ab99bd87adb6f945"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:lithium:0.15.0+mc1.21.1@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 771768,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/lithium-fabric-0.15.0+mc1.21.1.jar",
+            "MD5": "319d83e396c1a1227bcb4451d79e3336"
+          }
+        },
+        {
+          "id": "de.keksuccino:melody:1.0.10@jar",
+          "name": "Melody",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 188035,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/melody_fabric_1.0.10_MC_1.21.jar",
+            "MD5": "0f1bfbf2dd4fa047a1616fc448f3b856"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.20.2+mc1.21.1@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 435763,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/modernfix-fabric-5.20.2+mc1.21.1.jar",
+            "MD5": "cb8f961ba03da7dd0208cded31f54871"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:11.0.3@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 973066,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/modmenu-11.0.3.jar",
+            "MD5": "d9a3c1f26c571e3eb07ef2ed3e89d1b0"
+          }
+        },
+        {
+          "id": "me.justahuman:more_cobblemon_tweaks:1.0.3@jar",
+          "name": "MoreCobblemonTweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 115435,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/MoreCobblemonTweaks-fabric-1.0.3.jar",
+            "MD5": "f28729db15cbcb2669c364f771e21257"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.26@jar",
+          "name": "Mouse Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 75984,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/MouseTweaks-fabric-mc1.21-2.26.jar",
+            "MD5": "1d39ead1641ef522bc7ae92383f21da8"
+          }
+        },
+        {
+          "id": "com.chaosthedude:naturescompass:1.21.1-2.2.7-fabric@jar",
+          "name": "Nature's Compass",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 223976,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/NaturesCompass-1.21.1-2.2.7-fabric.jar",
+            "MD5": "c17943653b243e6b9d86e5122ff63931"
+          }
+        },
+        {
+          "id": "elocindev.necronomicon:necronomicon:1.6.0@jar",
+          "name": "Necronomicon",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 37055,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/Necronomicon-Fabric-1.6.0+1.21.jar",
+            "MD5": "e197f0343fe4965699ce56f381b54952"
+          }
+        },
+        {
+          "id": "net.potionstudios:biomeswevegone:2.3.9@jar",
+          "name": "Oh The Biomes We've Gone",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 36426271,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/Oh-The-Biomes-Weve-Gone-Fabric-2.3.9.jar",
+            "MD5": "a2f7ea249e639dd507d1c4868778f077"
+          }
+        },
+        {
+          "id": "dev.corgitaco:ohthetreesyoullgrow:5.0.8@jar",
+          "name": "Oh The Trees You'll Grow",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 118586,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/Oh-The-Trees-Youll-Grow-fabric-1.21.1-5.0.8.jar",
+            "MD5": "fde0310361bda7ea14df4889bc94104f"
+          }
+        },
+        {
+          "id": "io.wispforest:owo:0.12.15.1+1.21@jar",
+          "name": "Oωo",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1179014,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/owo-lib-0.12.15.1+1.21.jar",
+            "MD5": "4b1e871b5035ff4a00cba4f38bfdd6ca"
+          }
+        },
+        {
+          "id": "vazkii.patchouli:patchouli:1.21-87-FABRIC@jar",
+          "name": "Patchouli",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 860661,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/Patchouli-1.21-87-FABRIC.jar",
+            "MD5": "e6cf65ba82b3c85c64efa607014e8576"
+          }
+        },
+        {
+          "id": "dev.mrshawn:pokeblocks:1.3.1-1.21.1@jar",
+          "name": "Pokeblocks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1116989,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/pokeblocks-1.3.1-1.21.1.jar",
+            "MD5": "0d8226fc94624de265a10bb6c0c1ceb6"
+          }
+        },
+        {
+          "id": "net.puzzlemc:puzzle:2.0.1@jar",
+          "name": "Puzzle",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 135244,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/puzzle-fabric-2.0.1+1.21.jar",
+            "MD5": "20361f9e7be63248e5b5d6979c34787e"
+          }
+        },
+        {
+          "id": "dev.yurisuika:raised:4.0.1@jar",
+          "name": "Raised",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 87303,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/raised-fabric-1.21.1-4.0.1.jar",
+            "MD5": "6362b283382425a4678fe6850fb6777e"
+          }
+        },
+        {
+          "id": "com.gitlab.srcmc:rctapi:0.10.13-beta@jar",
+          "name": "Radical Cobblemon Trainers API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 153125,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/rctapi-fabric-1.21.1-0.10.13-beta.jar",
+            "MD5": "cc087647a89cf6adccc18e6a61c33c26"
+          }
+        },
+        {
+          "id": "com.gitlab.srcmc:rctmod:0.13.16-beta@jar",
+          "name": "Radical Cobblemon Trainers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2348981,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/rctmod-fabric-1.21.1-0.13.16-beta.jar",
+            "MD5": "a1ddf6398df1fd009c44539343527826"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.8.3+mc1.21.4@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81067,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/reeses-sodium-options-fabric-1.8.3+mc1.21.4.jar",
+            "MD5": "85f69ebd3bde2559ee53c01daa8e361e"
+          }
+        },
+        {
+          "id": "com.replaymod.core:replaymod:1.21-2.6.20@jar",
+          "name": "Replay Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 14086705,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/replaymod-1.21-2.6.20.jar",
+            "MD5": "0ba2685c588a0fa313e990cee46d5b60"
+          }
+        },
+        {
+          "id": "generated.fabricmod:searchables:1.0.2@jar",
+          "name": "Searchables",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 79531,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/Searchables-fabric-1.21.1-1.0.2.jar",
+            "MD5": "33d8f858261d757ef89144ac13013987"
+          }
+        },
+        {
+          "id": "dev.kir.shiftyhotbar:shifty-hotbar:1.1@jar",
+          "name": "Shifty Hotbar",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 55175,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/shifty-hotbar-mc1.20-1.1.jar",
+            "MD5": "cd46f7de09da0c8c2baae9bc07e74d03"
+          }
+        },
+        {
+          "id": "dage.showhelditems:show-held-items:0.2.1@jar",
+          "name": "Show Held Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6051926,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/show-held-items-0.2.1.jar",
+            "MD5": "76e55775119c2016fd57d54e43b06107"
+          }
+        },
+        {
+          "id": "dragomordor.simpletms:simpletms:2.0.3@jar",
+          "name": "SimpleTMs",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 761476,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/SimpleTMs-fabric-2.0.3.jar",
+            "MD5": "7ed904f3de0d572ad4d8dd6ff9b3a2ed"
+          }
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.7.4@jar",
+          "name": "3d-Skin-Layers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 477400,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/skinlayers3d-fabric-1.7.4-mc1.21.jar",
+            "MD5": "29d5c68545ed961b5bf806c59ee19864"
+          }
+        },
+        {
+          "id": "generated.fabricmod:sodium-extra:0.6.0+mc1.21.1@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 373661,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/sodium-extra-fabric-0.6.0+mc1.21.1.jar",
+            "MD5": "a2aa3212fe6397f39984b8c9e840956a"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.9+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1297415,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/sodium-fabric-0.6.9+mc1.21.1.jar",
+            "MD5": "65c26c015296f5651b9c623002f7a90b"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:1.21.1-3.21.1.1.82@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 969436,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/sophisticatedbackpacks-1.21.1-3.21.1.1.82.jar",
+            "MD5": "34c348f8bc33f48770ef98a69f152bc5"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedcore:1.21.1-1.0.13.1.120@jar",
+          "name": "Sophisticated Core",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3538883,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/sophisticatedcore-1.21.1-1.0.13.1.120.jar",
+            "MD5": "e1c2ea7174f0beaa897ee9dfd1d1ebbd"
+          }
+        },
+        {
+          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.8@jar",
+          "name": "SuperMartijn642's Config Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 206993,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/supermartijn642configlib-1.1.8-fabric-mc1.21.jar",
+            "MD5": "fff83455887d85c6f7ebac7bba24fa8f"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:4.1.0.8@jar",
+          "name": "TerraBlender",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 337990,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/TerraBlender-fabric-1.21.1-4.1.0.8.jar",
+            "MD5": "c82218938313a31a2e7d55028fe97e3a"
+          }
+        },
+        {
+          "id": "com.tom.storagemod:toms_storage:2.1.2@jar",
+          "name": "Tom's Simple Storage Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1935045,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/toms_storage_fabric-1.21-2.1.2.jar",
+            "MD5": "cc52f0c453a492ea717792fa41782404"
+          }
+        },
+        {
+          "id": "dev.emi:trinkets:3.10.0@jar",
+          "name": "Trinkets",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 272944,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/trinkets-3.10.0.jar",
+            "MD5": "4a42e243d6d5c25dea83be3ddc0b28b1"
+          }
+        },
+        {
+          "id": "toni.lib:txnilib:1.0.23@jar",
+          "name": "TxniLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1300395,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/txnilib-fabric-1.0.23-1.21.1.jar",
+            "MD5": "dee0139aa21005354fe1c7776b2677fa"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.1-2.5.30@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6608082,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/voicechat-fabric-1.21.1-2.5.30.jar",
+            "MD5": "ad948d180235434d829ce8efc0fa9a16"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:21.1.13@jar",
+          "name": "Waystones",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 859783,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/waystones-fabric-1.21.1-21.1.13.jar",
+            "MD5": "2b2931de783f86f933ed93cc1ff87a21"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.2.0@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1738365,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/Xaeros_Minimap_25.2.0_Fabric_1.21.jar",
+            "MD5": "345ce3425c0fa738de90bc0f1687e7c3"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.39.4@jar",
+          "name": "Xaero's World Map",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 953657,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/XaerosWorldMap_1.39.4_Fabric_1.21.jar",
+            "MD5": "683839d6a5ba2dd05788da51d9ae5fb8"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.3+1.21.1-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1178732,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/yet_another_config_lib_v3-3.6.3+1.21.1-fabric.jar",
+            "MD5": "9040e93aa09500158a79b8aa23a663ac"
+          }
+        },
+        {
+          "id": "com.b1n_ry:yigd:2.4.14@jar",
+          "name": "You're in Grave Danger",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 825073,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/youre-in-grave-danger-fabric-2.4.14.jar",
+            "MD5": "045f927b9b489bd128de0ed109b16657"
+          }
+        },
+        {
+          "id": "elocindev.ysns.fabric_quilt:ysns:1.0.6@jar",
+          "name": "You Shall Not Spawn!",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7651,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/YSNS-Fabric_Quilt-MC1.21-1.0.6.jar",
+            "MD5": "fc32ef113ce28b5fdd95c712d5e0d993"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.2+1.21.1@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 807934,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/Zoomify-2.14.2+1.21.1.jar",
+            "MD5": "bcde79e6db9ba2b4077f8b911d5b3aab"
+          }
+        },
+        {
+          "id": "1.21.2-Fresh-Moves_v3.1_No_Animated_Eyes.zip",
+          "name": "1.21.2-Fresh-Moves_v3.1_No_Animated_Eyes.zip",
+          "type": "File",
+          "artifact": {
+            "size": 251791,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/files/resourcepacks/1.21.2-Fresh-Moves_v3.1_No_Animated_Eyes.zip",
+            "MD5": "a3ee0e4b7855507e85262083fffd7610",
+            "path": "resourcepacks/1.21.2-Fresh-Moves_v3.1_No_Animated_Eyes.zip"
+          }
+        },
+        {
+          "id": "AlphabetSoup-v2.2.zip",
+          "name": "AlphabetSoup-v2.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 45064,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/files/resourcepacks/AlphabetSoup-v2.2.zip",
+            "MD5": "4499f578a96110d866315b1294f06730",
+            "path": "resourcepacks/AlphabetSoup-v2.2.zip"
+          }
+        },
+        {
+          "id": "CobbleFolk-Skin-Pack_for_1.6.zip",
+          "name": "CobbleFolk-Skin-Pack_for_1.6.zip",
+          "type": "File",
+          "artifact": {
+            "size": 656653,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/files/resourcepacks/CobbleFolk-Skin-Pack_for_1.6.zip",
+            "MD5": "aba2b86ccf2a395471a86c6c3d6c796f",
+            "path": "resourcepacks/CobbleFolk-Skin-Pack_for_1.6.zip"
+          }
+        },
+        {
+          "id": "Cobblemon-3D-Poké-Rods_1.0.zip",
+          "name": "Cobblemon-3D-Poké-Rods_1.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 167546,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/files/resourcepacks/Cobblemon-3D-Pok%C3%A9-Rods_1.0.zip",
+            "MD5": "3f9942822210093cd9bed79ce3ae8a0c",
+            "path": "resourcepacks/Cobblemon-3D-Poké-Rods_1.0.zip"
+          }
+        },
+        {
+          "id": "Cobblemon-Classic-Grass-Pack_2.1_1.21.1.zip",
+          "name": "Cobblemon-Classic-Grass-Pack_2.1_1.21.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 7418,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/files/resourcepacks/Cobblemon-Classic-Grass-Pack_2.1_1.21.1.zip",
+            "MD5": "e30036a0e8d49439568cfea37d9d9521",
+            "path": "resourcepacks/Cobblemon-Classic-Grass-Pack_2.1_1.21.1.zip"
+          }
+        },
+        {
+          "id": "Cobblemon-Interface-Modded_1.7.0.zip",
+          "name": "Cobblemon-Interface-Modded_1.7.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 828706,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/files/resourcepacks/Cobblemon-Interface-Modded_1.7.0.zip",
+            "MD5": "d3b8a9be6b23340cfd424e9efb23c6a7",
+            "path": "resourcepacks/Cobblemon-Interface-Modded_1.7.0.zip"
+          }
+        },
+        {
+          "id": "Cobblemon-Interface_1.4.0.zip",
+          "name": "Cobblemon-Interface_1.4.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 14077537,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/files/resourcepacks/Cobblemon-Interface_1.4.0.zip",
+            "MD5": "229d95ca8b980b5c7469e488d0432c17",
+            "path": "resourcepacks/Cobblemon-Interface_1.4.0.zip"
+          }
+        },
+        {
+          "id": "Cobblemotion_v1.2.zip",
+          "name": "Cobblemotion_v1.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 868646,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/files/resourcepacks/Cobblemotion_v1.2.zip",
+            "MD5": "8058f89128baf36bd7017b17f4e60876",
+            "path": "resourcepacks/Cobblemotion_v1.2.zip"
+          }
+        },
+        {
+          "id": "E19-Cobblemon-Minimap-Icons.zip",
+          "name": "E19-Cobblemon-Minimap-Icons.zip",
+          "type": "File",
+          "artifact": {
+            "size": 7135268,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/files/resourcepacks/E19-Cobblemon-Minimap-Icons.zip",
+            "MD5": "759ab3615f5f5c1e64c664e7f4f3c384",
+            "path": "resourcepacks/E19-Cobblemon-Minimap-Icons.zip"
+          }
+        },
+        {
+          "id": "emissive-cobblemon-ores.zip",
+          "name": "emissive-cobblemon-ores.zip",
+          "type": "File",
+          "artifact": {
+            "size": 801252,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/files/resourcepacks/emissive-cobblemon-ores.zip",
+            "MD5": "edae385d1a30ae8ff3ef7ffd70aa928b",
+            "path": "resourcepacks/emissive-cobblemon-ores.zip"
+          }
+        },
+        {
+          "id": "FreshAnimations_v1.9.2.zip",
+          "name": "FreshAnimations_v1.9.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 516256,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/files/resourcepacks/FreshAnimations_v1.9.2.zip",
+            "MD5": "ebdaffde1a25273994c74b5d9ec21e1f",
+            "path": "resourcepacks/FreshAnimations_v1.9.2.zip"
+          }
+        },
+        {
+          "id": "RCT-Trainers_1.6_1.5.zip",
+          "name": "RCT-Trainers_1.6_1.5.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1687947,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/files/resourcepacks/RCT-Trainers_1.6_1.5.zip",
+            "MD5": "49b8f7afa3fabb92b9c53f3c2fe54270",
+            "path": "resourcepacks/RCT-Trainers_1.6_1.5.zip"
+          }
+        },
+        {
+          "id": "Rotom-Appliances_Cobblemon_1.5.zip",
+          "name": "Rotom-Appliances_Cobblemon_1.5.zip",
+          "type": "File",
+          "artifact": {
+            "size": 140560,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/files/resourcepacks/Rotom-Appliances_Cobblemon_1.5.zip",
+            "MD5": "f13cd4fb10ec45799138fed10abff098",
+            "path": "resourcepacks/Rotom-Appliances_Cobblemon_1.5.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.4.zip",
+          "name": "ComplementaryUnbound_r5.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 452408,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.4.zip",
+            "MD5": "94f56d5c5c343b9a0f4ad7eb135f9afa",
+            "path": "shaderpacks/ComplementaryUnbound_r5.4.zip"
+          }
+        }
+      ]
+    }
+  ]
+}

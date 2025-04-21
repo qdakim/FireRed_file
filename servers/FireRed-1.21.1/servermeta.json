@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/FireRed_file/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "FireRed",
+    "description": "Minecraft 1.21.1 (Fabric v0.16.13)",
+    "icon": "https://github.com/qdakim/FireRed_file/raw/main/server-icon.png",
+    "address": "www.zzoldong.p-e.kr",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.16.13"
+  },
+  "untrackedFiles": []
+}
