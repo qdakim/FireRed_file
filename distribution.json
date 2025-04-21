@@ -376,6 +376,16 @@
           }
         },
         {
+          "id": "com.natamus:collective:8.3@jar",
+          "name": "Collective",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 934732,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/collective-1.21.1-8.3.jar",
+            "MD5": "c8175232e3316ff51c6836839c9a714b"
+          }
+        },
+        {
           "id": "me.pepperbell:continuity:3.0.0+1.21@jar",
           "name": "Continuity",
           "type": "FabricMod",
@@ -993,6 +1003,16 @@
             "size": 3538883,
             "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/sophisticatedcore-1.21.1-1.0.13.1.120.jar",
             "MD5": "e1c2ea7174f0beaa897ee9dfd1d1ebbd"
+          }
+        },
+        {
+          "id": "com.natamus:starterkit:7.4@jar",
+          "name": "Starter Kit",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 272899,
+            "url": "https://github.com/qdakim/FireRed_file/raw/main/servers/FireRed-1.21.1/fabricmods/required/starterkit-1.21.1-7.4.jar",
+            "MD5": "197143ca0eff813b32e3fac160547a6c"
           }
         },
         {
